@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+main {
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    margin: 20px 0 10px 0;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 0 20px 0;
+}
+
+#img-div {
+    background-color: #fff;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image {
+    width: 97.5%;
+    max-width: 1024px;
+}
+
+#img-caption {
+    margin: 15px 10px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#tribute-info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    margin: 50px 0 40px 0;
+}
+
+#tribute-info ul {
+    width: 550px;
+    padding-left: 40px;
+}
+
+
+#tribute-info ul li {
+    margin: 20px 0;
+    line-height: 1.5;
+    width: 545px;
+}
+
+#year {
+    font-weight: bold;
+}
+
+#tribute-quote {
+    width: 65%;
+    margin-top: 35px;
+    line-height: 1.5;
+    font-style: italic;
+    width: 550px;
+}
+
+#quote-by {
+    display: block;
+    margin-top: 15px;
+    font-style: italic;
+    width: 550px;
+}
+
+#tribute-link {
+    font-weight: bold;
+    font-size: 19px;
+    margin: 40px 0;
+}
+
+#tribute-link a {
+    color: #477ca7;
+}
+
+#tribute-link a:visited {
+    color: #74638F;
+}
